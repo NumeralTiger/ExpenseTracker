@@ -78,7 +78,7 @@ const ReceiptUploader = ({
             <>
               <Upload className="h-12 w-12 text-gray-400 mb-4" />
               <p className="text-lg font-medium mb-2">
-                Drag and drop your bank balance here
+                Drag and drop your bank statement here
               </p>
               <p className="text-sm text-gray-500 mb-4">or</p>
               <div className="flex gap-4">
