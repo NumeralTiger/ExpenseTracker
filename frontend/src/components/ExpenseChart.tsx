@@ -124,7 +124,7 @@ const ExpenseChart = ({
 
       <div className="flex justify-center gap-6 mt-4">
         {categories.slice(1, 3).map((category) => (
-          <div key={category} className="flex items-center gap-2">
+          <div key={category} className="flex items-center gap-2 mt-5">
             <div
               className={`w-3 h-3 rounded-full ${category === "Groceries" ? "bg-blue-500" : "bg-green-500"}`}
             />
